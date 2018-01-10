@@ -114,7 +114,7 @@ export default {
     },
 
     emitImageInfo($event) {
-      let file = $event.target.files[0]
+      let file = $event.target.files
       let Editor = this.quill
       let range = Editor.getSelection();
       let cursorLocation = range.index
